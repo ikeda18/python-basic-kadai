@@ -1,0 +1,10 @@
+#関数を使いこなそう
+
+#第1引数に商品の金額、第2引数に消費税（10%）を設定
+def buy_item(price,per):
+    return price*(1+(per/100))
+
+#2300円の商品を購入した場合
+total = buy_item(2300,10)
+
+print(f"{total}円")
