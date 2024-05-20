@@ -1,0 +1,8 @@
+# 変数を使って四則演算しよう
+
+top = 10
+bottom = 20
+height = 5
+surface_area = (top+bottom)*height/2
+
+print(f"{surface_area}cm²")
