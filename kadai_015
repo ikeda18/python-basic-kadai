@@ -1,0 +1,14 @@
+#クラスを使いこなそう
+
+class Human:
+
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def printinfo(self):
+        print(f"名前は{self.name}で、年齢は{self.age}歳です")
+
+user = Human("田中",25)
+
+user.printinfo()
